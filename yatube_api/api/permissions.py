@@ -9,7 +9,5 @@ class OwnerOrReadOnly(permissions.BasePermission):
         return safe_method or auth_user
 
     def has_object_permission(self, request, view, obj):
-        if request.method in permissions.SAFE_METHODS:
-            return True
-        else:
-            return obj.author == request.user
+        return request.method in permissions.SAFE_METHODS or \
+               obj.author == request.user
