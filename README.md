@@ -1,14 +1,5 @@
 ### How to start:
 
-Clone the repository and go to it on the command line:
-
-```
-git clone https://github.com/yandex-praktikum/kittygram.git
-```
-
-```
-cd kittygram
-```
 
 Create and activate the vertual environment:
 
