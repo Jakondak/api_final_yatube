@@ -33,7 +33,7 @@ Start the project:
 python3 manage.py runserver
 ```
 
-API documentation:
+### API documentation:
 ```
 http://127.0.0.1:8000/redoc/
 ```
